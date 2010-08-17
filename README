@@ -1,0 +1,35 @@
+	ASCII Tetris game
+=================================
+
+ To compile, use:
+
+ make
+
+ It will output a binary file Tetris.
+
+ Controls:
+
+  q: 		left
+  s: 		bottom (quicker)
+  d: 		right
+  [space]: 	rotate
+
+   [LEVEL: 1 | SCORE: 0]
+  ~~~~~~~~~~~~~~~~~~~~~~~~~
+  !                        !
+  !                        !
+  !                        !
+  !                        !
+  !          O O           !
+  !          O             !
+  !          O             !
+  !                        !
+  !                        !
+  !                        !
+  !                        !
+  !              &         !
+  !              &         !
+  !      # #   X & &       !
+  !      # # X X X @ @ @ @ !
+  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
