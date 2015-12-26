@@ -2,7 +2,7 @@
 # define TETRIS_H
 
 struct tetris;
-	
+
 void tetris_cleanup_io();
 
 void tetris_signal_quit(int);
