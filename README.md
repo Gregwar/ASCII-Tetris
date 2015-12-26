@@ -2,35 +2,37 @@
 
 To compile, use:
 
- make
+    make
 
 It will output a binary file Tetris.
 
- Controls:
+Controls:
 
-  q: 		left
-  s: 		bottom (quicker)
-  d: 		right
-  [space]: 	rotate
+    q: 		left
+    s: 		bottom (quicker)
+    d: 		right
+    [space]: 	rotate
 
-   [LEVEL: 1 | SCORE: 0]
-  ~~~~~~~~~~~~~~~~~~~~~~~~~
-  !                        !
-  !                        !
-  !                        !
-  !                        !
-  !          O O           !
-  !          O             !
-  !          O             !
-  !                        !
-  !                        !
-  !                        !
-  !                        !
-  !              &         !
-  !              &         !
-  !      # #   X & &       !
-  !      # # X X X @ @ @ @ !
-  ~~~~~~~~~~~~~~~~~~~~~~~~~
+What it looks like:
+
+    [LEVEL: 1 | SCORE: 0]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    !                        !
+    !                        !
+    !                        !
+    !                        !
+    !          O O           !
+    !          O             !
+    !          O             !
+    !                        !
+    !                        !
+    !                        !
+    !                        !
+    !              &         !
+    !              &         !
+    !      # #   X & &       !
+    !      # # X X X @ @ @ @ !
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # License
 
