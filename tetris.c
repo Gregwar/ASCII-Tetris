@@ -147,16 +147,6 @@ tetris_print(struct tetris *t) {
     printf("\n");
 }
 
-void
-tetris_new_block(struct tetris *t) {
-    t->current=blocks[random()%TETRIS_PIECES];
-    t->x=(t->w/2) - (t->current.w/2);
-    t->y=0;
-    if (tetris_hittest(t)) {
-        t->gameover=1;
-    }
-}
-
 int
 tetris_hittest(struct tetris *t) {
     int x,y,X,Y;
@@ -175,6 +165,16 @@ tetris_hittest(struct tetris *t) {
             }
         }
     return 0;
+}
+
+void
+tetris_new_block(struct tetris *t) {
+    t->current=blocks[random()%TETRIS_PIECES];
+    t->x=(t->w/2) - (t->current.w/2);
+    t->y=0;
+    if (tetris_hittest(t)) {
+        t->gameover=1;
+    }
 }
 
 void
